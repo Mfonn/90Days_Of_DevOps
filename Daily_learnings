@@ -1,5 +1,26 @@
+89 Days Left
+- There are two parts of an application. The development part where the software developers work on the code and the operations part where it is
+  - deployed to a server. DevOps is a link between the two.
+- DevOps should be involved in the development lifecycle moving from Idea -> code -> Build -> Deploy -> Manage -> learn 
+ - Then taking whatever is learnt back to the beginning to be incorporated in the lifecycle. 
+  
+ -Modern applications should be delivered by modern teams on modern platforms and should be about the people, process and tools and improve business agility. 
+ - Benefits of DevOps include Speed, Rapid Delivery, Reliability, Scale, Improved Collaboration and Security.
+ - DevOps culture should be incorporated in companies using DevOps teams. The DevOps culture implies that the operations team and the development teams
+  - do not work in silos. Rather they work together. Deployment is done in small frequent incremental changes in order to reduce the risks inorder to deliver 
+  - rapidly in safe and reliable manner.
+ - DevOps best practices include: Continous integration, Continous Delivery, Monitoring and logging, MicroServices, Communication and Collaboration, 
+  - Infrastructure as code.
+  
+- What is Infrastructure as Code: This is when Infrastructure is provided and managed using code and software development techniques such as version control
+  - and continous integration. For infrastructure provisioning, Terraform is advised, And Ansible for Configuration Management.
+  
+ - DevOps vs SRE: Site Reliability Engineering is implementing DevOps principles but with more emphasis on reliability and keeping systems stable.
+
+
+
 90 Days Left
 - DevOps is a continous process, it is not a software but rather a skillset and a couple of tools. 
 - The tools I will have to learn on this path include but are not limited to: Command line, Basic Networking, Cloud, Virtualization and containers, Kubernetes,
-- CI/CD, Infrastructure as code, Observability, Policy, Service Mesh. 
+  - CI/CD, Infrastructure as code, Observability, Policy, Service Mesh. 
 - I can become anything I want to become. I just have to take the first and hardest step which is to start.
