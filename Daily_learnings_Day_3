@@ -1,0 +1,71 @@
+CONTINUOUS IMPROVEMENT
+- The stages of an Application focused DevOps LifeCycle: Development, Testing, Integration, Deployment, Monitoring
+- Continous Improvement is a process not a project. Lean Continuous improvement always has to be present. 
+- You need guidnace for continuous improvement
+- Define a Kaizen Implementation plan & right resources it takes about 2-5 years to really have the benefits
+  - of continuous improvement.
+ - Define an implementation plan with long term horizon and yearly goals (Policy Deployment)
+ - Start with one product family that is important to the company in terms of techniques and money
+ - Involve the people on the shopfloor, that is the people that use/work on the product everyday they know
+  - 100% of the problems and the possible solutions. Top management knows about 4% of problems.
+    - Train people on continuous improvement (People love to be trained)
+ - Start the morning with a daily "lean morning meeting"
+ - Celebrate the success
+ - Move to another product family and not forget the first one, sustain some of the team there for continuous 
+  - improvement
+  
+  CONTINUOUS TESTING 
+  - This is a practice where really rapid feedback is driven to development as changes come in. 
+  - How quickly can a problem be identified, the teams involved made aware of it, and it gets fixed?
+  - The bulk should be unit testing, every block of code should be tested (That's where the term code coverage
+    - comes in, how much of the code has been tested? )
+   - API testing? It captures the business logic at run time
+   - Have automated UI tests?
+   - Exploratory tests? going into the software and trying to break things, looking for things that might have been overlooked in our other tests. Also product managers working on the user experience. 
+   - Beta is where real users test the app, also know known as user acceptance testing.
+   - Most of the unit integration tests should be automated
+  
+  
+  CONTINUOUS INTEGRATION 
+  - To avoide merge hell, automate the building and integrating part. If something breaks, alert the team involved. 
+  - There is always a testable build that contains the latest update.
+  
+  DEVOPS MONITORING
+  - Monitoring tools monitor servers, switches, application and services. They generate alerts when something goes wrong and they also generate alerts when the problem has been resolved. 
+  
+  - Nagios is an open-source monitoring tool, it monitors network servces, monitors CPU usage, disk usage and system logs. It also uses plugin scripts written in popular scripting languages.
+  - Nagios Remote Plugin Exector (NPRE) is an agent that allows remote scripts to be executed. 
+  - Nagios Remote Data Processor(NPDP) is an agent that allows flexible data transport. It uses standard protocols such as http:// and xml to transport data
+  
+  
+  - Geneos is a 3-tier architecture for monitoring systems
+  - Instrumentation layer, sits on all monitored system nodes. 
+  - Visualiztion layer active consoles view the status of the environment and current alerts, gives a visualization of what is actually happening
+  - Analysis and consolidation layer, gateways deploy netprobes and process data
+  
+  THE REMOTE FLOW
+  Principles:
+    - Small iterative changes
+    - quality over quantity: ship 1 issue well rather than ship 2 poorly
+    - Be procative, Deploy often
+    - Simple, well written and readable code. 
+    
+    Working asynchronously means I do not need to wait for other people to assign me work, there will always be a backlpg of work and if there isn't I should pick up what I think has the most impact/benefit. There should always be a plan. All work should be written down in issues. If I am doing something out of my own volition and no one shared a spec, then I should create an issue for it before I get started.
+  - Focus on execution not deadlines
+  
+  - Use notion for documentation
+  
+  
+  FINOPS 
+  Is the way for teams to manage their cloud costs, where everyone taes ownership of their cloud usage supported by a central best-practices group. Brings accountability to Cloud Spend.
+  
+  FINOPS PRINCIPLES: 
+    - Teams need to collaborate; finance moves at the speed and granularity of IT
+    - Everyone takes ownership for their cloud usage; track team-level targets to drive accountability.
+    - A centralized team drives finOps; Granular allocation of all costs, direct or shared, to the teams and cost centers responsible for them. 
+    - Reports should be accessible and timely; fast feedback loops result in more efficient behavior, visibility helps determine if resources are under or over-provisioned, automation of resources drives conitnuous improvement. 
+    - Decisions are driven by business value of cloud
+    - Take advantage of the variable cost model of the cloud; comparing pricing between services and resource types drives better decisions.
+  
+  
+  
