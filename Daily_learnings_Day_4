@@ -1,0 +1,38 @@
+- Agile and DevOps practices are similar as they are both about delivering changes in small incremental amounts. Their differences lie in the teams they are involved with. 
+- Agile focuses on optimising communication betweeen end-users and developers while DevOps targets operations and Developers. Agile is more outward looking involving project managers and developers while DevOps is a set of internal practices involving developers, QA, operataions.
+- Agile frameworks are tools that allow for communication and transparency such as kaban, lean, scrum, extreme, crystal, dynamic, feature-driven while DevOps promotes practices such as infrastructure as code, architecture as code, monitoring, self-healing, end-to-end automation. 
+In Agile, the main source of feedback is the end-users while in DevOps the stakeholders and the team have a higher priority.
+Agile allows coming back to previous product development stages to fix errors and prevent the accumulation of technical debt. 
+To adopt agile and DevOps simultaneously, 7 steps have to be followed:
+    1) Unite the development and operations teams
+    2) Create build anr run teams, all development and operational concerns are discussed by the entire DevOps team
+    3) Change approach to sprints and assign priority ratings to offer DevOps tasks that have the same value as development tasks
+    4) Include QA in all development stages
+    5) Choose right tools
+    6) Automate everything I can 
+    7) Measure and control by using tangible numeric deliverables.
+
+
+DAY IN THE LIFE OF A DEVOPS ENGINEER 2021
+- Start by looking through work messages to check for anything that happened during the night that is urgent that I could've missed out on.
+- Kubernetes, Ansible? Secrets stored using Ansible Vault? Docker again? Moving from Docker compose services to Kubernetes Services?
+- Try to workout frequently
+- Dress up for work, changes my mental state.
+- AWS RDS for Databases? to save database costs?
+- Kubernetes cluster? CUBE? 
+- Keep learning to keep my skills upto date and keep up with technology as it changes. 
+- CI/CD? A lot of time is used on it for setting up but after that, not so much time is spent on it for updates.
+
+3 THINGS A DEVOPS ENGINEER SHOULD KNOW
+- Avoid being too biased about certain technologies or tech stack. 
+- Learn and undertstand the fundamentals helps to be able to learn new technologies faster.
+- Keep it Simple
+- Use open source in my side projects in other to learn more technologies
+
+
+HOW TO BECOME A DEVOPS ENGINEER
+- P.S Ansible is an open source software that automates software provisioning configuration management and application deployment. Ansible connects via SSH, remote PowerShell or via other remote APIs. 
+- DevOps work makes everyone's work easier and automated. 
+- Don't use DevOps to do what I can not do manually, I have to know what's happening underneath.
+- Linux administration -> Systems administration -> Find a way to solve a problem I have using DevOps, a work I am tired of doing on my own.  
+- Ansible uses SSH, headless? Embed Systems? 
