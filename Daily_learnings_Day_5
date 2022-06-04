@@ -1,0 +1,48 @@
+PLAN
+In the planning process, about the features to be rolled out in the next sprint or the bug fixes to be done, it is an opportunity for the DevOps Engineer to get involved and learn what will most likely come my way and if posible, influence their decisions to create software that works better with the infrastructure built.
+
+CODE 
+A DevOps Engineer may not be so involved in this but may give direction to the Engineers on how to write code to communicate wth the infrastructure and services being used.
+
+BUILD
+This is where the automation processes kick off and the code is going to be transpiled or compiled using our CI/CD pipeline
+
+TESTING
+The testing is done after building so there would be less problems in production. It is no guarantee but it as close to a guarantee as can get. 
+
+RELEASE
+This might be a non-existence step or in some cases mean moving the code into a rgistry or a repository where it is accessible by the production servers for the deployment process.
+
+DEPLOY
+THis is putting the code into production
+
+OPERATE 
+This is getting feedback from customers about slow time. Auto-scaling can be built to handle the increase in the number of servers during peak periods and decrease the number of servers during off-peak periods.
+Alerts can also be automated to let ops team know that a deployment has occured.
+
+
+MONITOR
+Monitoring deals with as the name implies monitoring, includes issues around auto-scaling, memory utilization CPU, utilization disk space, API endpoint, response time. Most importantly, logs which gives developers the ability to see what is happening without having to access production systems.
+
+
+CI/CD 
+Continuous development and continuous delivery following the feedback gotten
+
+
+SOFTWARE OR DEVOPS ENGINEER
+Example of a devops project is to build an algorithm that captures the monitoring of the logs of the influx of customers, it will also automate the process of scaling the resources back in when users finish using the application.
+It takes a very long time, maybe 6 months to find a solution.
+
+Another example of this process is to reduce the automation time
+
+
+-Jenkins is a build automation tool
+- Docker Compose of Docker Swarm is enough to anage small applications but for larger applications, containers like Kubernetes are more efficient
+- I need different environments for my code, production, testing, development.
+- Examples of infrastructure provisioning tool is Terraform
+- Example of confifuration management tool is ansible, chef and puppet
+- Docker can be run on any type of system and it creates the environment it requires to run on that system
+zation
+- My organization should be seen as an orchestration. Kubernetes makes it mske sure that all the work is distributed in the pods
+
+
