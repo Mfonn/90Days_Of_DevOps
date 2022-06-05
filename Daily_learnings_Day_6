@@ -1,0 +1,22 @@
+Companies that have used DevOps
+
+Amazon: Moved their physical server footprint to Amazon Web Services in 2010 and in 2011 adopted a continued deployment process where developers could deploy code whenever they want to and to whatever servers they needed. 
+
+Netflix: Carries out CI/CD and Continuous monitoring is in place so if the deployment of the images fail, the new images are rolled back and traffic is rerouted to the previous version. 
+
+Etsy: They especially noticed it was needed when they realised that developers felt responsible for deployment, application performance, uptime and other goals.
+
+HOW NETFLIX THINKS OF DEVOPS
+- Learn the balance between freedom and responsiblity i.e do not wait for tasks to be assigned to me, pick them up and do them
+- Do not be another cog in the wheel, challenge systems and ways of doing things.
+- Do not do a lot of guesses, gut instinct or working based on traditions. 
+- Everything Netflix does is driven by data
+
+
+DEVOPS: THE AMAZON STORY
+- In order to move to devops, an organization has to break down their software into small microservices instead of one big monolisthic app.
+- Microservices are services that have only one role and work on their own. They are cloud native architectural applications in which a single application is composed of many loosely coupled and independently deployable smaller components, or services
+
+ETSY
+- They created a designated ops role which meat that person had to be present in all other departments and do a cross-team collaboration and communication on a more frequent basis.
+- The tech stack they chose was LAMP: Linux, Apache, MySQL and PHP
