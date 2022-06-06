@@ -1,0 +1,35 @@
+DEVOPS & LEARNING A PROGRAMMING LANGUAGE
+- Go is considered as top because most of the containers like Kubernetes are written in Go.
+- Python's advantage over Go is that it is not a compiled programming language, unlike Go.
+
+- Go programs are statically linked meaning when it is compiled, everything is included in a single binary executable and no external dependencies will be required that would need to be installed on the remote machine.
+
+- Go is a platform-independent language meaning binary executables can be produced for all the operating systems. 
+
+- Go is a performant language and has fast compilation and fast run time with lower resource usage like CPU and memory especially compared to python.
+
+- Go has a standard library that has the majority of functionality that would be needed for DevOps built directly into it. This includes functionalities like file processing, HTTP web services, JSON processing, native support for concurrency and parallelism as well as built-in testing. 
+
+Nice To Know: Found out Digital Ocean is a cloud platform. I always used to see the ad, never knew what it was for.
+
+
+WHY GOLANG IS DEVOPS TOP PROGRAMMING LANGUAGE
+- According to StackOverflow's survey, it is the 4th most loved language, it is the 3rd highest paying programming language.
+- Most of the Devops tools are written in Go programming language such as Kubernetes, Docker, Grafana and Prometheus.
+- Go lang compiles directly to machine code.
+
+
+BASICS OF GOLANG
+- Go Lang has most of its features optimized for the backend
+- It is optimized for implementation in large sized data
+- Go has a low latency
+- Go has Garbage collection and GPU power optimization.
+- It has a built in concurrency support
+
+
+
+
+
+
+
+
