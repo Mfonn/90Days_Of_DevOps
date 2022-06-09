@@ -1,0 +1,119 @@
+- The idea in `go` is that all my folders live in one space called my workspace. It is in my home directory and can be viewed by typing in the commandline `go env GOPATH `
+
+- The first thing to write in the file let's say `main.go` is the ` package main ` 
+  - Every go file needs to have the ` package main ` 
+  
+- The next line is ` import "fmt" ` meaning import the package named fmt. This specific package is very important. It is written in this syntax
+ ` import (
+        "fmt"
+      )
+      
+      
+- The next line is the function that is written in this syntax; 
+      func main() {
+            fmt.PrintIn("Hello, World")
+          }  
+         
+ - To run the file `go run main.go `
+ 
+ - To compile the file to make it executable; `go build main.go `
+ This creates a copy of the `main.go` file that can be executed in any file. 
+ 
+ - `go install` does the same thing but stores the file in the ` bin ` folder.
+ 
+ - To declare a variable; 
+    `var x int` 
+    - This is a variable called 'x' that is of type 'int' and if a value, it will be given the value of '0'
+    example: 
+    func main() {
+      var x int = 5
+      var y int = 7
+      var sum int = x + y
+    
+    fmt.PrintIn(sum)
+    }
+ 
+ Nice To Know: The `fmt package` is used to format inout and output in `go`
+ 
+ - For a shorter syntax for the same function:
+      func main() {
+        x := 5
+        y := 7
+        sum := x + y
+       
+      fmt.PrintIn(sum)
+      }
+      
+  - For writing `if statements`, there are no brackets in it 
+  example:
+  func main() {
+    x := 7
+    
+    if x > 6 {
+        fmt.PrintIn("More than 6")
+        }
+   }
+  
+ - TECHWORLD WITH NANA
+ - Reason for the development of Go. 
+    - Infrastructure has changed a lot, they have become scalable and distributed, dynamic, with more capacity.
+    - Existing programming languages did not fully take advantage of it
+    - Most programming languages run by running one task at a time vs doing multiple tasks at once which ` go, c++, java ` can do. Hence making the application faster and more user friendly. aka called ` threading `
+    
+- Nice To Know: Concurrency is about dealing with lots of things at once. 
+     
+     - However with concurrency, it leads to complex code which is expensive and slow to work on.
+
+Introducing, **drum roll** `go`
+  - `Go` was designed to run on multiple cores and built to support concurrency. 
+  - Concurrency in `Go` is cheap and easy
+
+
+- Characteristics of Go
+   There is an attempt to combine both:
+    - Simple and readable syntax of a dynamically typed language like oython
+    - Efficiency and safety of a lower-level, statically typed language like C++
+    - Go is a Server-side or Backend Language that is used in running microservices, web applications, database services.
+ 
+ 
+ LEARNING GO WITH FREECODECAMP
+ Why Go?
+ - Python is not really convenient for running large applications like Google
+ - Java has an increasingly complex type system
+ - C/C++ apart from having complex type systems, its compile times are also notoriously slow.
+ 
+ Features of Go
+ - It is strong and statically typed. Meaning when a variable is declared to hold an integer, it will always hold an integer, it can not be changed.
+ - Key features:
+    - simplicity
+    - Fast compile times
+    - Garbage collected
+    - Built-in concurrency
+    - Compile to standalone binaries
+ 
+ 
+ GO FOR BEGINNERS WITH HITESH
+ - MOD is similar to NPM packages
+ - GET is to get things from the repository
+ 
+ -GoROOT is where all the binaries needed to run the root are located
+ -GoWorkSpace is where the code is put
+ 
+ - `Go` has a strict structure that its code should be written in.
+ - `bin` holds all the binaries in the folder
+ - `pkg` holds all the packages
+ - `src` holds all the code
+  In the `src` folder, another syntax is followed. 
+  - Put the name of the website the code will be hosted in eg `github.com`
+    - Add the username eg `mfonnta`
+      - Add the folder name
+       - Add the file name
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
