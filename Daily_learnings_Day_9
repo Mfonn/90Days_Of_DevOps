@@ -1,0 +1,47 @@
+- Compiling is changing a language from human-readable language to machine language in order to be executed by the machine.
+    Go Source -> Compiler -> Executable Binary
+- Example was creating the Hello WOrld main.go and using the command `go build main.go` to compile the executable.
+
+- A package is a collection of source files in the same directory that are compiled together. It helps in code reusability and maintainance of source code.
+
+FIRST GO FILE LINE BY LINE 
+- `package main` means that the file belongs to a package called main. All .go files need to belong to a package, they should also have `package something` in the opening line.
+
+- the `func main` is the entry point of the program. Whenever I want to compile and execute my code, I have to tell the machine where the execution needs to start, i.e. the `function main`.
+
+
+GOLANG WITH NANA
+- Characteristics of Go
+      - Simple syntax, easy to learn, read and wriet code
+      - Fast build time, start up and run
+      - Requires fewer resources
+      - Compiles quickly to a single binary that is consistent across different OS. 
+      
+  - `go mod init <module path>
+      - Initializes the go.mod file
+      - which contains the information of the module with the name/module path and go version used in the program.
+  - A package is a collection of source files.
+      
+ Nice To Know:
+    - In `go`, all our code must belong to a package, the first statement in Go file must be "package..."
+    - A declaration error means there is not entry point for the code and one needs to be created `function main`
+    - For every `go` appilication, there can only be one main as there is only one entry point.
+    
+    
+FREECODECAMP LEARN GO PROGRAMMING LANGUAGE
+- export GOPATH=/home/mike/golib
+- export PATH=$PATH:$GOPATH/bin
+
+- Library for autocomplete in go functions: `go get github.com/nsf/gocode`
+
+
+HITESH CHOUDHARY VARIABLES
+- Variable types, strings, int, boolean, float.
+- To declare a variable; 
+    var batman string = "I am batman"
+- When declaring a variable, make sure to use it somewhere.
+- If i do not want to state the type of variable, I can use this syntax;
+    thor := "I am thor"
+    - `:=` automatically guesses the datatype
+- To give two variables values at the same time:
+      var Ironman, CatAmerica string = "I am Ironman", "I am capt America"
