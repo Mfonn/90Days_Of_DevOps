@@ -1,0 +1,34 @@
+`go run`: This command compiles and runs the main package comprised of the .go files specified on the command line. The command is compiled to a temporary folder. 
+`go build`: To compile packages and dependencies, compile the package in the current directory if it is the main package if not it will place the executable in the pkg folder. 
+  `go build` also enables building an executable file for any Go Supported OS platform.
+`go install`: The same as go build but will place the executable in the bin folder.
+
+GOLANG WITH NANA
+- Go compiles errors to enforce better code quality. 
+- Variable names must be used to avoid possibly dead code, i.e it is never used in the code. 
+- Imported packages must also be used in the code.
+- Syntax for using a variable in a statement p.s the space automatically gets added before and after the variable.
+    `fmt.Println("Welcome to", variableName, "booking application"
+    
+ - `Printf` prints formatted data. It has a placeholder that tells the fmt functions how to format the variable passed in. 
+ - The syntax us 
+    `fmt.printf("Some text with a variable %v, second variable %v", myVariable, anotherVariable)`
+    
+ - Go is a statically typed language. i.e Go Compiler needs to be told the data type when declaring the variable especially when a variable is defined without the value being defined. So it can anticipate the data type. 
+    e.g var userName string
+    
+    
+FREECODECAMP GOLANG
+- Multiple variables can be declared at the same time using:
+var (
+  actorName string = "Elisabeth Sladen"
+  companion string = "Sarach Jane Smith"
+  doctorNumber int = 3
+  season int = 11
+)
+
+
+HITESH CHOUDHARY
+- the package "bufio" takes input from the user
+- other packages that will be used include: "os", "strconv", "strings"
+- A lot of other things I do not understand but will hopefully understand as I go on.
