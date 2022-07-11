@@ -1,0 +1,17 @@
+Commands in Linux OS
+   `cat` is used to print the contents of a file
+   `pwd` is used to print the current working directory
+   `find` is used to search for files can be used as:
+      find -name passwords.txt: This command will look through every folder in our current directory for that specific file.
+      find -name *.txt: This command will find every .txt file and give the location of each one.
+    
+    `grep` is used to search the entire contents of a file for any entries of the value we are searching for.
+    Syntax is: `grep "THM*" access.log`
+    where `THM*` is the value we are searching for and `access.log` is the file we are searching.
+    
+    
+ Operators in LInux
+ 
+  - Operator "&&": It is used to make a list of commands to run e.g command1 && command2. P.S command2 will only run if command1 is successful
+  - Operator ">": redirects the output of one file into another file. E.g echo hey > welcome This will either create a new file 'welcome' and make it's content 'hey' or if a file 'welcome' already exists, it will overwrite its content.
+  - Operator ">>": does the same as above but instead of overwriting it, it adds to the content instead.
