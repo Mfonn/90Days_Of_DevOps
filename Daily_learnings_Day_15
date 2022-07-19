@@ -22,3 +22,15 @@ LINUX COMMANDS
 LINUX FUNDAMENTALS 2
 - How to login in and control remote machines?
 - Secure Shell (SSH) is a common means of connecting to and interacting with the command line of a remote linux machine. Any data sent between the devices is encrypted when it is sent over a network such as the internet.
+
+
+SSH is short for Secure Shell and it is a means of connecting to and interacting with the command line of a remote Linux machine.
+
+LINUX FOR HACKERS
+- P.S Linux is a file, everything is represented in a file in Linux.
+- The `bin` directory contains all the commands in Linux system. 
+- `sudo adduser mfon` adds a new user called mfon
+- `which` is used to find the location of the command binaries. syntax `which cat` prints the location of the binary of the cat command
+- `boot` is files my system needs to boot.
+- `tmp` files that go away after the system reboots
+- etc file is pronounced as etsy file
