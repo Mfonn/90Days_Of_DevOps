@@ -1,0 +1,23 @@
+- To make sure I have the latest available updates from the central repositories before any software installation `sudo apt-get update`.
+- To install a program using apt, `sudo apt install figlet`
+- To remove the software installation using apt, `sudo apt remove figlet`
+- `/bin` short for binary, the bin folder is where our binaries that the system needs, executables and tools will mostly be found here.
+- `/boot` all the files my system needs to boot up. How to boot up, and what drive to boot from.
+- `/dev` Finds device informtion here, this is where one will find pointers to my disk drive. `sda` will be my main OS disk.
+- `/etc` The most important folder on my Linux system, majorityof my configuration files are here. 
+- `/lib` /bin is where the binaries and executables live, and `/lib` is where to find the shared libraries for those. 
+- `/media` is where to find removable devices.
+
+LINUX FOR HACKERS
+- The terminal is what is used to interact with the shell. E.g the terminsl is the keyboard and the monitor while the shell is the ui
+- To find out what shell I am using `ps` meaning process status. Prints the status running in my linux machine.
+- PowerShell is used in Windows but can run in Linux too
+- `who` tells who the user is and who else is logged into the system
+-`lsof` lists all the files that are open
+- TO search for a command using a keyword `apropos keyword`
+
+
+LEARN LINUX FUNDAMENTALS 
+- The nano text editor is the text editor in Linux machines
+- Opened using `nano filename`
+- Vim is always installed in Linux and nano may not be installed
