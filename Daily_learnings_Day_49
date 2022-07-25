@@ -1,0 +1,13 @@
+- Containers fall short when it comes to scale and orchestration alone. The best that can be done is to use docker-compose to bring multiple containers together. Kubernetes which is a container orchestrator gives the ability to scale up and down in an automated way or based on a load of my applications and services.
+- Kubernetes is the technology while container orchestration is the concept or process behind the technology. Kubernetes is not the only container orchestration platform available. There is also Docker Swarm, HAshiCorp Nomad and others.
+- Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. .
+- A container is a set on one or more processes that are isolated from the rest of the system.
+- OCI Open Container Initiative provides a set of industry standards that define a container runtime specification and a container image specification.
+- Container image defines the process I want to spawn. It is not the process itself rather it is the definition of the process. While the runtime instantiates the definition, it spawns it.
+
+ADVANTAGES OF CONTAINERS
+Virtualization is the process of running a virtual instance of a computer system in a layer abstracted from the actual hardware. Virtualization enables one to run multiple operating systems on the hardware of a single physical server while containerization enables one to deploy multiple applications using the same operating system on a single virtual machine or server.
+- Containers do not spawn any OS they are efficient with resources and have a low hardware footprint. 
+- When one container crashes, it does not influence the others.
+- Environmental Isolation
+- Quick Deployment
